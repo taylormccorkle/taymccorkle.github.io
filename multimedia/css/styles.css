@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    padding: 20px 0px 10px;
+    background: rgb(149, 190, 214);
+    margin: 0px auto;
+    width:100%;
+    z-index: 1;
+}
+h1 {
+	font-size: 50px;
+	color: rgb(88, 88, 88);	
+    font-style: italic;
+    padding-left: 25px;
+	margin-bottom: 0px;
+}
+blockquote	{
+	color: rgb(88, 88, 88);
+	font-size: 1.3em;
+	margin-top: 0px;
+	margin-left: 200px;
+}
