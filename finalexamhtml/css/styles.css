@@ -1,0 +1,150 @@
+* {
+	box-sizing: border-box;
+}
+html {
+    font-size: 16px; 
+    line-height: 1.4rem;
+}
+img {
+	width: 100%;
+    max-width: 100%;
+}
+body {
+    background-image: url("/img/bg.jpg");
+}
+footer {
+    margin: 4rem 0rem;
+    padding: 2rem 0rem;
+    border-top: 1px solid #ccc;
+    font-size: .8rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 430px;
+    color: rgb(88, 87, 87);
+    font-family: "Roboto", sans-serif;
+}
+li {
+    float: right;
+    margin-right: 25px;
+    color: rgb(88, 87, 87);
+}
+li a {
+    display: block;
+    color: rgb(88, 87, 87);
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+li a:hover {
+    border-bottom: 4px solid rgb(173, 32, 32);
+}
+h1 {
+    margin-left: 255px;
+    font-size: 35px;
+    margin-top: 80px;
+    color: rgb(65, 64, 64);
+    font-family: "Slabo", serif;
+}
+#photography {
+    margin-left: 320px;
+    font-size: 20px;
+    margin-bottom: -20px;
+    color: rgb(88, 87, 87);
+    font-family: "Slabo", serif;
+}
+#kids {
+    width: 45%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#welcome {
+    float: right;
+    margin-top: -450px;
+    margin-right: 558px;
+    color: rgb(65, 64, 64);
+    font-family: "Slabo", serif;
+}
+#paragraphone {
+    float: right;
+    width: 25%;
+    margin-top: -420px;
+    margin-right: 280px;
+    font-size: 15px;
+    border-top: 2px solid rgb(173, 32, 32);
+    color: rgb(88, 87, 87);
+    font-family: "Roboto", sans-serif;
+}
+#paragraphtwo {
+    float: right;
+    width: 25%;
+    margin-top: -225px;
+    margin-right: 280px;
+    font-size: 15px;
+    color: rgb(88, 87, 87);
+    font-family: "Roboto", sans-serif;
+}
+#Henry {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(65, 64, 64);
+    font-family: "Slabo", serif;
+}
+#quoteone {
+    font-size: 20px;
+    width: 40%;
+    margin-left: 450px;
+    border-top: 2px solid rgb(173, 32, 32);
+    color: rgb(88, 87, 87);
+    font-family: "Roboto", sans-serif;
+}
+.column {
+    float: left;
+    width: 28%;
+    padding: 12px;
+}
+.row {
+    clear: both;
+    margin-left: 220px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#Charlie {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 510px;
+    color: rgb(65, 64, 64);
+    font-family: "Slabo", serif;
+}
+#quotetwo {
+    font-size: 20px;
+    width: 40%;
+    margin-left: 450px;
+    border-top: 2px solid rgb(173, 32, 32);
+    color: rgb(88, 87, 87);
+    font-family: "Roboto", sans-serif;
+}
+.columns {
+    float: left;
+    width: 28%;
+    padding: 12px;
+}
+.rows {
+    clear: both;
+    margin-left: 220px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.foot {
+    margin-top: 280px;
+}
+.finale {
+    text-indent: 230px;
+    color: rgb(88, 87, 87);
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
