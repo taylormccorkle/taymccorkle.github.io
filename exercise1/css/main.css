@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+#omelet {
+    width: 15%;
+    border-radius: 50%;
+    margin-top: -150px;
+    margin-left: 325px;
+}
+#burger {
+    width: 15%;
+    border-radius: 50%;
+    margin-top: -150px;
+    margin-left: 325px;
+}
+#potatoes {
+    width: 15%;
+    border-radius: 50%;
+    margin-top: -150px;
+    margin-left: 325px;
+}
+#Bmenu {
+    font-size: 30px;
+    font-style: italic;
+}
+#Lmenu {
+    font-size: 30px;
+    font-style: italic;
+}
+#Dmenu {
+    font-size: 30px;
+    font-style: italic;
+}
+#bullet1 {
+    list-style-type: none;
+    color: #6b6969;
+    font-size: 17px;
+}
+#bullet2 {
+    list-style-type: none;
+    color: #6b6969;
+    font-size: 17px;
+}
+#bullet3 {
+    list-style-type: none;
+    color: #6b6969;
+    font-size: 17px;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+#intro {
+    text-align: center;
+    align-items: center;
+    width: 25%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 4px double rgb(107, 45, 45);
+}
+h4 {
+    font-size: 30px;
+    font-style: italic;
+    border-top: 4px double rgb(107, 45, 45);
+    padding-top: 20px;
+}
+#lastparagraph {
+    color: #6b6969;
+    font-size: 17px;
+}
