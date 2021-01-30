@@ -59,20 +59,34 @@ h1 {
     margin: 0 auto;
     padding-bottom: 20px;
     border-bottom: 4px double rgb(107, 45, 45);
+    margin-top: 30px; 
 }
 h4 {
     font-size: 30px;
     font-style: italic;
     border-top: 4px double rgb(107, 45, 45);
     padding-top: 20px;
+    align-items: center;
+    text-align: center;
 }
 #lastparagraph {
     color: #6b6969;
     font-size: 17px;
+    align-items: center;
+    text-align: center;
 }
 #HFavicon {
     width: 2%;
 }
 #HLogo {
     width: 15%;
+    border-radius: 50%;
+    border: 4px double #6b6969;
+    margin-left: 630px;
+    margin-right: 630px;
+}
+#HLinks {
+    border: 4px double #6b6969;
+    margin-left: 500px;
+    margin-right: 500px;
 }
