@@ -1,0 +1,88 @@
+.title {
+    background:  rgb(108, 139, 83);
+    color: rgb(245, 241, 241);
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+body {
+    font-family: "Arial", sans-serif;
+}
+/* Style the links inside the pill navigation menu */
+.pill-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+/* Change the color of the links on mouse-over */
+.pill-nav a:hover {
+    background-color: rgb(216, 213, 213);
+    color: black;
+}
+a:visited {
+    color: rgb(133, 72, 72);
+}
+.active {
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.youth {
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.teens {
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.elderly {
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.pill-nav {
+    margin-left: 525px;
+    margin-right: 500px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#foursome {
+    width: 40%;
+    border-radius: 10%;
+    margin-left: 155px;
+}
+#golfleague {
+    width: 38%;
+    border-radius: 10%;
+    margin-right: 30px;
+}
+#elderlydescription {
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+#elderlydescription2 {
+    width: 50%;
+    margin-left: 40px;
+}
+.didyouknow {
+    width: 40%;
+    float: right;
+    margin-right: 40px;
+    margin-top: -230px;
+}
+#title {
+    margin-right: 400px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+#secondvid {
+    width: 40%;
+    margin-left: 450px;
+}
