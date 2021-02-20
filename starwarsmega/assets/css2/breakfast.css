@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+#omelet {
+    width: 30%;
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-left: 535px;
+    border: 8px solid #6b6969;
+}
+#Bmenu {
+    font-size: 30px;
+    font-style: italic;
+}
+#bullet1 {
+    list-style-type: none;
+    color: #6b6969;
+    font-size: 17px;
+    background-color: white;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    border: 4px solid #6b6969;
+    
+}
+h1 {
+    text-align: center;
+    color: #6b6969;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid #6b6969;
+}
+#HFavicon {
+    width: 2%;
+    margin-left: 200px;
+}
+#BLogo {
+    width: 15%;
+    border-radius: 50%;
+    background-color: white;
+    border: 8px solid #6b6969;
+    margin-left: 630px;
+    margin-right: 630px;
+}
+#bgbreakfast {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*Preserve aspect ratio*/
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+#BLinks {
+    color: #6b6969;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 5px solid #6b6969;
+}
