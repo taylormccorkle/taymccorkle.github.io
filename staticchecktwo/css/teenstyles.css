@@ -2,8 +2,8 @@
     background:  rgb(108, 139, 83);
     color: rgb(245, 241, 241);
     text-align: center;
-    padding: 20px;
-    font-size: 25px;
+    padding: 45px;
+    font-size: 40px;
     font-weight: bold;
     font-style: italic;
 }
@@ -126,4 +126,61 @@ a:visited {
     font-weight: bold;
     color: rgb(109, 107, 107);
     border-top: 2px solid rgb(108, 139, 83);
+}
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(102, 99, 99);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(108, 139, 83);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgb(102, 99, 99);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
