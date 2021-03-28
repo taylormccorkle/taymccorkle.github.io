@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Mike Murach &amp; Associates - Professional Programming Books</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" media="screen">
+    <!-- JavaScript HTML requirements -->
+    <script src="image_swap_library.js"></script>
+    <script src="image_swap.js"></script>
+    <!-- Another way to provide the JavaScript that's in the image_swap.js file
+    <script type="text/javascript">
+	window.onload = function () {
+		var gallery = new ImageGallery("image_list", "image", "caption");
+	}
+    </script>
+    -->
+</head>
+
+<body>
+    <section>
+        <h1>Current Best Sellers</h1><br>
+        <!-- 
+            JavaScript HTML requirements:
+            
+            A list that has the image reference for each photo in the a element,
+            the thumbnail reference in the img element within the a element,
+            and the caption in the title for each list item. 
+            
+            A span element that will display the caption for each photo. This  element
+            can be within a paragraph, an a heading element, or any other block element.
+            
+            An image element that will display the photo that corresponds to the thumbnail.
+            
+            The ids for the list, span, and img elements should be
+            image_list, caption, and image.                
+        -->
+        <ul id="image_list">
+            <li><a href="/princesses/images/pr_belle.jpg" title="Belle - Before"><img src="/princesses/images/xbelle.jpg" alt=""></a></li>
+            <li><a href="/princesses/images/pr_jasmine.jpg" title="Jasmine - Before"><img src="/princesses/images/xjasmine.jpg" alt=""></a></li>
+            <li><a href="/princesses/images/pr_cinder.jpg" title="Cinderella - Before" ><img src="/princesses/images/xcinderella.jpg" alt=""></a></li>
+            <li><a href="/princesses/images/pr_littlemer.jpg" title="Little Mermaid - Before" ><img src="/princesses/images/xlittlemermaid.jpg" alt=""></a></li>
+            <li><a href="/princesses/images/pr_snow.jpg" title="Snow White - Before" ><img src="/princesses/images/xsnowwhite.jpg" alt=""></a></li>
+          </ul>
+        
+        <h2><span id="caption">SQL Server 2008 for developers</span></h2>               
+        <p><img src="/princesses/images/pr_belle.jpg" alt="" id="image" /></p>
+    </section>
+</body>
+</html>
