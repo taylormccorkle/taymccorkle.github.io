@@ -1,0 +1,225 @@
+.title {
+    background:  rgb(108, 139, 83);
+    color: rgb(245, 241, 241);
+    text-align: center;
+    padding: 45px;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+body {
+    font-family: "Arial", sans-serif;
+}
+/* Style the links inside the pill navigation menu */
+.pill-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+/* Change the color of the links on mouse-over */
+.pill-nav a:hover {
+    background-color: rgb(216, 213, 213);
+    color: black;
+}
+a:visited {
+    color: rgb(133, 72, 72);
+}
+.active {
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.youth {
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.teens {
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.elderly {
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.pill-nav {
+    margin-left: 540px;
+    margin-right: 485px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#mensgolf {
+    width: 35%;
+    border-radius: 50%;
+    margin-left: 220px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+#womensgolf {
+    width: 35%;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 150px;
+    margin-top: 40px;
+}
+#questionanswer {
+    font-size: 17px;
+    color: rgb(109, 107, 107);
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+#division1 {
+    font-size: 17px;
+    color: rgb(109, 107, 107);
+    font-weight: bold;
+    margin-left: 90px;
+    list-style: none;
+}
+#division2 {
+    font-size: 17px;
+    color: rgb(109, 107, 107);
+    font-weight: bold;
+    margin-left: 90px;
+    list-style: none;
+}
+#division3 {
+    font-size: 17px;
+    color: rgb(109, 107, 107);
+    font-weight: bold;
+    margin-left: 90px;
+    list-style: none;
+}
+.qanda {
+    width: 43%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+}
+.golfstatlink {
+    float: right;
+    margin-top: -370px;
+    margin-left: 840px;
+    margin-bottom: 70px;
+}
+#golfstatimg {
+    width: 70%;
+    border-radius: 10%;
+}
+#golfstatcaption {
+    text-align: center;
+    float: right;
+    margin-right: 275px;
+    width: 40%;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(56, 97, 55);
+    border: 2px solid rgb(108, 139, 83);
+    padding: 20px;
+}
+#facts {
+    width: 40%;
+    margin-left: 25px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(109, 107, 107);
+    border-top: 2px solid rgb(108, 139, 83);
+}
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(102, 99, 99);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(108, 139, 83);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgb(102, 99, 99);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.flex-grid {
+    display: flex;
+    margin-top: 20px;
+}
+.flex-grid .col {
+    flex: 2;
+}
+@media (max-width: 200px) {
+    .flex-grid {
+        display: block;
+    }
+}
+.flex-grid {
+    margin-left: 200px;
+}
+.col {
+    background: rgb(216, 214, 214);
+    padding: 20px;
+}
+.anwa1 {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(109, 107, 107);
+    text-align: center;
+}
+.anwa2 {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(109, 107, 107);
+    text-align: center;
+}
+.anwa3 {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(109, 107, 107);
+    text-align: center;
+}
